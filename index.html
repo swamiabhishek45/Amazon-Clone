@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <title>Amazon Clone</title>
+</head>
+<body>
+    <header>
+        <nav class="flex h-16 items-center bg-[#00453e]">
+            <div class=" nav-logo">
+                <div class="bg-[url('Images/amazon_logo.png')]  logo"></div>
+            </div>
+
+            <div class="nav-location border">
+                <p class="deliver">Deliver</p>
+                <div class="loc-icon">
+                    <i class="fa-solid fa-location-dot"> </i>
+                    <p class="IND"></p>India</p>
+                </div>
+            </div>
+
+            <div class="nav-search ">
+                <select name="" class="search-select invert text-black text-sm">
+                    <option value="">All</option>
+                    <option value="">Arts</option>
+                    <option value="">Books</option>
+                    <option value="">Electronic</option>
+                    <option value="">Girl's Fashion</option>
+                    <option value="">Men's Fashion</option>
+                </select>
+                <input type="text" placeholder="Seach Amazon" class="search-input p-4 text-sm bg-[#181a1b]">
+                <div class=" flex justify-center items-center bg-orange-400 w-10 rounded-r-md">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+            <div>
+                <!-- <p>Return & Order</p> -->
+            </div>
+
+            <div class="px-5">
+                <img class="invert" src="Images/cart.svg" alt="">
+                <span>Cart</span>
+            </div>
+        </nav>
+
+        <div class="bg-[#232f3e] w-full h-10 flex items-center gap-5">
+            <div class="flex items-center ps-4 gap-1 ">
+                <img class="invert bold" src="Images/hamburger.svg" alt="">
+                <span  class="font-bold">All</span>
+            </div>
+            <h3>Today's Deal</h3>
+            <h3>Registry</h3>
+            <h3>Customer Service</h3>
+            <h3>Gift Cards</h3>
+            <h3>Sell</h3>
+        </div>
+        
+    </header>
+</body>
+</html>
