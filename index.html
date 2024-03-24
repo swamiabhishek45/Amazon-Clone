@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <nav class="flex h-16 items-center bg-[#00453e]">
+        <nav class="flex nav-bar h-16 items-center bg-[#131921]">
             <div class=" nav-logo">
                 <div class="bg-[url('Images/amazon_logo.png')]  logo"></div>
             </div>
@@ -23,28 +23,34 @@
                 </div>
             </div>
 
-            <div class="nav-search ">
-                <select name="" class="search-select invert text-black text-sm">
+            <div class="nav-search">
+                <select name="" class="search-select text-black text-sm">
                     <option value="">All</option>
-                    <option value="">Arts</option>
+                    <!-- <option value="">Arts</option>
                     <option value="">Books</option>
                     <option value="">Electronic</option>
                     <option value="">Girl's Fashion</option>
-                    <option value="">Men's Fashion</option>
+                    <option value="">Men's Fashion</option> -->
                 </select>
-                <input type="text" placeholder="Seach Amazon" class="search-input p-4 text-sm bg-[#181a1b]">
-                <div class=" flex justify-center items-center bg-orange-400 w-10 rounded-r-md">
+                <input type="text" placeholder="Seach Amazon" class="search-input  p-4 text-sm bg-white text-black">
+                <div class="flex justify-center items-center text-black text-xl bg-orange-400 w-12 rounded-r-md outline-none">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
             </div>
 
-            <div>
-                <!-- <p>Return & Order</p> -->
+            <div class="border p-1">
+                <p><span class="text-sm">Hello, sign in</span></p>
+                <p><span class="font-bold">Account & List</span></p>
             </div>
 
-            <div class="px-5">
-                <img class="invert" src="Images/cart.svg" alt="">
-                <span>Cart</span>
+            <div class="border p-1">
+                <p><span class="text-sm">Returns</span></p>
+                <p><span class="font-bold">& Orders</span></p>
+            </div>
+
+            <div class="p-2 flex gap-1 border items-end">
+                <img class="invert font-bold w-10" src="Images/cart.svg" alt="">
+                <span class="font-bold cursor-pointer">Cart</span>
             </div>
         </nav>
 
@@ -53,11 +59,12 @@
                 <img class="invert bold" src="Images/hamburger.svg" alt="">
                 <span  class="font-bold">All</span>
             </div>
-            <h3>Today's Deal</h3>
-            <h3>Registry</h3>
-            <h3>Customer Service</h3>
-            <h3>Gift Cards</h3>
-            <h3>Sell</h3>
+                <a>Today's Deal</a>
+                <a>Registry</a>
+                <a>Customer Service</a>
+                <a>Gift Cards</a>
+                <a>Sell</a>
+            
         </div>
         
     </header>

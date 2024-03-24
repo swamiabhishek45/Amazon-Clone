@@ -22,6 +22,7 @@ body{
     /* background: #00453e; */
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 /* box1 */
@@ -71,11 +72,16 @@ body{
 /* box3 */
 .nav-search{
     display: flex;
+    justify-content: space-evenly;
     /* background: red; */
     width: 620px;
-    height: 30px;
+    height: 40px;
     border-radius: 3px;
     margin-left: 5px;
+}
+
+.nav-search:hover{
+    outline: 2px solid orange;
 }
 
 .search-select{
@@ -83,8 +89,9 @@ body{
     width: auto;
     padding-left: 8px;
     /* text-align: center; */
-    border-radius: 3px;
-    height: 32px;
+    border-radius: 3px 0 0 3px;
+    height: 40px;
+    border: none;
     
 }
 
@@ -92,4 +99,6 @@ body{
 
 .search-input{
     width: 100%;
+    font-size: 1rem;
+    border: none;
 }
